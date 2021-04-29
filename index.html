@@ -1,46 +1,222 @@
 <html>
     <head>
+        <title>Las VegASH - The home for Las Vegas Cigar Enthusiasts</title>
+
         <meta name="description" content="Las VegASH - Information about cigar shops and more in Las Vegas" />
         <meta name="author" content="Justin Holman, JC Simon" />
-        <link href="styles/temp.css" rel="stylesheet" type="text/css" />
-        <link href="styles/960.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-
-        <title>Las VegASH - Home for Las Vegas Cigar Enthusiasts</title>
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
 
-    <body>
-        
-        <div id="shim"></div>
-        <div id="content">
-            <div class="logo_box">
-                <img src="images/jc072203b.jpg" /><br/><br/>
-                <h2>For JC</h2>
-            </div>          
-            <div class="main_box">
-                <img src="images/lasvegash500x75.png" alt="LasVegash" height="79" width="572" />
-                <h2>The home for Las Vegas Cigar Enthusiasts is lighting back up.<br/>
-                    <span>See you real soon!</span></h2>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/lasvegash500x75.png"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#shops">Shops</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-white font-weight-bold">The home for Las Vegas Cigar Enthusiasts</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">Thank you for stopping by. We hope you find some useful information about the Las Vegas Cigar Community.</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="display: none;">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About Las VegASH</h2>
+                        <hr class="divider light my-4" />
+                        <p><img src="images/jc072203b.jpg"></p>
+                        <p class="text-white-50 mb-4">Started by the late JC Simon, Las VegASH was his way of giving back to the amazing cigar community in Las Vegas. His vision was to have a place to share information about upcoming events, pictures and his thoughts on cigars. Sadly we lost JC in 2015, but his vision will live on.</p>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services" style="display: none;">Learn more about JC</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="shops">
+            <div class="container">
+                <h2 class="text-center mt-0">Las Vegas Cigar Shops</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <p><img src="images/shops/CasaFuenteLogo.png" style="width:200px;"></p>
+                            <h3 class="h4 mb-2">Casa Fuente</h3>
+                            <p class="text-muted mb-0">3500 Las Vegas Blvd. South <br/>(702) 731-5051</p>
+                            <p><a href="http://www.casafuente.com/">Web Site</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <p><img src="images/shops/CigarBoxLogo.png" style="width: 200px;"></p>
+                            <h3 class="h4 mb-2">Cigar Box</h3>
+                            <p class="text-muted mb-0">1900 Western Ave.<br/>(702) 735-8322</p>
+                            <p><a href="https://www.cigarboxlv.com/">Web Site</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <p><img src="images/shops/CigarWarehouseLogo.png"  style="width: 200px;"></p>
+                            <h3 class="h4 mb-2">Cigar Warehouse</h3>
+                            <p class="text-muted mb-0">5012 Arville Street<br/>(702) 818-3922</p>
+                            <p><a href="https://cigarwarehouseusa.com/">Web Site</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <p><img src="images/shops/EnFuegoLogo.png"></p>
+                            <h3 class="h4 mb-2">En Fuego</h3>
+                            <p class="text-muted mb-0">325 W Sahara <br />(702) 384-9262</p>
+                            <p><a href="https://www.enfuegolasvegas.com/" target="_blank">Web Site</a> </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <p><img src="images/shops/HeliosCigarsLogo.jpeg" style="width:200px;"></p>
+                            <h3 class="h4 mb-2">Helios Cigars</h3>
+                            <p class="text-muted mb-0">5752 S. Fort Apache Rd<br />(702) 202-0008</p>
+                            <p><a href="https://www.helioscigars.com/lasvegas">Web Site</a></p>
+                        </div>
+                    </div>
                 
-                <ul class="info" style="display: none;">
-                    <li>
-                        <h3>P</h3>
-                        <p>866-599-5350<br/>403-926-8331</p>
-                    </li>
-                    <li>
-                        <h3>A</h3>
-                        <p>301 Clematis. Suite 3000<br/>West Palm Beach, FL 33401</p>
-                    </li>
-                    <li>
-                        <h3>S</h3>
-                        <p class="social">
-                            <a href="#" class="tw"></a>
-                            <a href="#" class="fb"></a>				
-                            <a href="#" class="li"></a>
-                        </p>
-                    </li>
-                </ul>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <p><img src="images/shops/LasVegasCigarCompanyLogo.png" style="width: 200px;"></p>
+                            <h3 class="h4 mb-2">Las Vegas Cigar Company</h3>
+                            <p class="text-muted mb-0">2510 E Sunset Rd, Ste 1<br/> (702) 262-6100</p>
+                            <p><a href="https://www.lvcc.com/">Web Site</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio" style="display: none;">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white" style="display: none;">
+            <div class="container text-center">
+                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider my-4" />
+                        <p class="text-muted mb-5">Know of an upcoming event? Are we missing a shop? Want to share something about JC?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0" style="display:none;">
+                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                        <div>+1 (555) 123-4567</div>
+                    </div>
+                    <div class="col-lg-12 mr-auto text-center">
+                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+                        <a class="d-block" href="mailto:jholman@elantrics.com">Contact Justin</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container"><div class="small text-center text-muted">Copyright &copy; 2021 - Las VegASH</div></div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
