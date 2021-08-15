@@ -9,236 +9,249 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <!-- Third party plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 
-    <body id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    
+
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top py-3">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/lasvegash500x75.png"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#localshops">Local Shops</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#stripshops">Strip Shops</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                <a href="#" class="navbar-brand">Las VegASH</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#localshops" class="nav-link">Local Shops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#stripshops" class="nav-link">Strip Shops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">The home for Las Vegas Cigar Enthusiasts</h1>
-                        <hr class="divider my-4" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline" >
-                        <p class="text-white-75 font-weight-light mb-5">Thank you for stopping by. The site is still a work in progress, but we hope you find some useful information about the Las Vegas Cigar Community.</p>
-                        <p class="text-white-75" style="display: none;">
-                            <img src="images/pca_header_logo.png" style="width:300px;"/>
-                            <br/>
-                            The big show returns! PCA returns to Las Vegas from July 9 - 13, 2021 at the Sands Expo.
-                            <a href="https://premiumcigars.org" target="_blank">Learn More</a>
+
+        <!-- Showcase -->
+        <section class="bg-dark text-light p-5 text-center text-sm-start">
+            <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1 class="text-warning">The Home for Las Vegas Cigar Enthusiasts</h1>
+                        <p class="lead my-4">
+                        Thank you for stopping by. The site is still a work in progress, but we hope you find some useful information about the Las Vegas Cigar Community.
                         </p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="display: none;">Find Out More</a>
                     </div>
+                    <img src="images/jc072203b.jpg" class="img-fluid w-50 d-none d-sm-block" alt="">
+                    <!-- img-fluid w-50 d-none d-sm-block -->
                 </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
+        </section>
+
+
+        <!-- Local Shops -->
+        <section class="p-5" id="localshops">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">About Las VegASH</h2>
-                        <hr class="divider light my-4" />
-                        <p><img src="images/jc072203b.jpg"></p>
-                        <p class="text-white-50 mb-4">Started by the late JC Simon, Las VegASH was his way of giving back to the amazing cigar community in Las Vegas. His vision was to have a place to share information about upcoming events, pictures and his thoughts on cigars. Sadly we lost JC in 2015, but his vision will live on.</p>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services" style="display: none;">Learn more about JC</a>
+                <h2 class="text-center mb-4">Local Cigar Shops</h2>
+                <div class="row g-4">
+                    <div class="col-md">
+                        <div class="card bg-light">
+                            <img src="images/shops/CigarBoxLogo.png" alt="CigarBox" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cigar Box</h5>
+                                <p class="card-text">
+                                    4046 Dean Martin Drive<br/>
+                                    Las Vegas, NV 89103<br/>
+                                    (702) 735-8322
+                                </p>
+                                <a href="https://www.cigarboxlv.com/" target="_blank" class="btn btn-primary">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <img src="images/shops/CigarWarehouseLogo.png" alt="" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cigar Warehouse</h5>
+                                <p class="card-text">
+                                    5012 Arville Street<br/>
+                                    Las Vegas, NV<br/>
+                                    (702) 818-3922
+                                </p>
+                                <a href="https://cigarwarehouseusa.com/" target="_blank" class="btn btn-primary">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <img src="images/shops/EnFuegoLogo.png" alt="" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">En Fuego</h5>
+                                <p class="card-text">
+                                    325 W Sahara <br />
+                                    Las Vegas, NV<br/>
+                                    (702) 384-9262
+                                </p>
+                                <a href="https://www.enfuegolasvegas.com/" class="btn btn-primary" target="_blank">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <img src="images/shops/HeliosCigarsLogo.jpeg" alt="" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Helios Cigars</h5>
+                                <p class="card-text">
+                                    752 S. Fort Apache Rd<br />
+                                    Las Vegas, NV<br/>
+                                    (702) 202-0008
+                                </p>
+                                <a href="https://www.helioscigars.com/lasvegas" class="btn btn-primary" target="_blank">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <img src="images/shops/LasVegasCigarCompanyLogo.png" style="width: 200px;" alt="" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Las Vegas Cigar Company</h5>
+                                <p class="card-text">
+                                    2510 E Sunset Rd, Ste 1<br/> 
+                                    Las Vegas, NV<br/>
+                                    (702) 262-6100
+                                </p>
+                                <a href="" class="btn btn-primary" target="_blank">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md">
+                        <div class="card bg-light">
+                            <img src="images/shops/lvccigaroutlet.png" alt="" style="width: 200px;" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Las Vegas Cigar Outlet</h5>
+                                <p class="card-text">
+                                    21560 E Sahara Ave<br/>
+                                    Las Vegas, NV 89104<br/> (702) 473-5440
+                                </p>
+                                <a href="https://www.lasvegascigarsonline.com" class="btn btn-primary" target="_blank">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <img src="images/shops/lvpauite.png" alt="" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Las Vegas Paiute Tribal Smoke Shop Company</h5>
+                                <p class="card-text">
+                                    1225 N Main St<br/> 
+                                    Las Vegas, NV 89101<br/> 
+                                    (702) 342-0663
+                                </p>
+                                <a href="https://lvpaiutesmokeshop.com" class="btn btn-primary" target="_blank">Web Site</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <img src="" alt="" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="" class="btn btn-primary" target="_blank">Web Site</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Las Vegas Cigar Shops-->
-        <section class="page-section" id="localshops">
+        
+        <!-- Strip Cigar Shop -->
+
+        <section class="p-5" id="stripshops">
+            <h2 class="text-center mb-4">Strip Cigar Shops</h2>
+            <div class="row g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <img src="images/shops/CasaFuenteLogo.png" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Casa Fuente</h5>
+                            <p class="card-text">
+                                Caesars Palace<br/>
+                                500 Las Vegas Blvd. South <br/>
+                                (702) 731-5051
+                            </p>
+                            <a href="http://www.casafuente.com/" class="btn btn-primary" target="_blank">Web Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <img src="images/shops/Davidoff-Cigar-Bar-Logo-Black.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Davidoff of Geneva Cigar Bar</h5>
+                            <p class="card-text">
+                                3200 S Las Vegas Blvd<br/>
+                                Ste 1245<br/> 
+                                Las Vegas, NV 89109<br/>
+                                (702) 473-5001
+                            </p>
+                            <a href="http://davidoffcigarbarlv.com" class="btn btn-primary" target="_blank">Web Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <img src="images/shops/montecristo-cigar-bar.png" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Montecristo Cigar Bar</h5>
+                            <p class="card-text">
+                                Caesars Palace<br/>
+                                3570 Las Vegas Blvd S<br/>
+                                Las Vegas, NV 89109<br/>
+                                (866) 227-5938
+                            </p>
+                            <a href="https://www.caesars.com/caesars-palace/things-to-do/nightlife/montecristo-cigar-bar?utm_medium=local&utm_source=yelp&utm_content=bar&utm_campaign=9FA_Yelp_Listings&dclid=CNCQhavkz_ACFQbmZAodDZAGHg" class="btn btn-primary" target="_blank">Web Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary text-center text-sm-start p-5" id="about">
             <div class="container">
-                <h2 class="text-center mt-0">Local Cigar Shops</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/CigarBoxLogo.png" style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Cigar Box</h3>
-                            <p class="text-muted mb-0">4046 Dean Martin Drive, Las Vegas, NV 89103<br/>(702) 735-8322</p>
-                            <p><a href="https://www.cigarboxlv.com/" target="_blank">Web Site</a></p>
-                        </div>
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h2 class="text-white ">About Las VegASH</h2>
+                        <p class="lead my-4">Started by the late JC Simon, Las VegASH was his way of giving back to the amazing cigar community in Las Vegas. His vision was to have a place to share information about upcoming events, pictures and his thoughts on cigars. Sadly we lost JC in 2015, but his vision will live on.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/CigarWarehouseLogo.png"  style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Cigar Warehouse</h3>
-                            <p class="text-muted mb-0">5012 Arville Street<br/>(702) 818-3922</p>
-                            <p><a href="https://cigarwarehouseusa.com/" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/EnFuegoLogo.png"></p>
-                            <h3 class="h4 mb-2">En Fuego</h3>
-                            <p class="text-muted mb-0">325 W Sahara <br />(702) 384-9262</p>
-                            <p><a href="https://www.enfuegolasvegas.com/" target="_blank">Web Site</a> </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/HeliosCigarsLogo.jpeg" style="width:200px;"></p>
-                            <h3 class="h4 mb-2">Helios Cigars</h3>
-                            <p class="text-muted mb-0">5752 S. Fort Apache Rd<br />(702) 202-0008</p>
-                            <p><a href="https://www.helioscigars.com/lasvegas" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-                
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/LasVegasCigarCompanyLogo.png" style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Las Vegas Cigar Company</h3>
-                            <p class="text-muted mb-0">2510 E Sunset Rd, Ste 1<br/> (702) 262-6100</p>
-                            <p><a href="https://www.lvcc.com/" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/lvccigaroutlet.png" style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Las Vegas Cigar Outlet</h3>
-                            <p class="text-muted mb-0">21560 E Sahara Ave Las Vegas, NV 89104<br/> (702) 473-5440</p>
-                            <p><a href="https://www.lasvegascigarsonline.com" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/lvpauite.png" style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Las Vegas Paiute Tribal Smoke Shop Company</h3>
-                            <p class="text-muted mb-0">1225 N Main St Las Vegas, NV 89101<br/> (702) 342-0663</p>
-                            <p><a href="https://lvpaiutesmokeshop.com" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
+                    <img src="images/jc072203b.jpg" class="img-fluid w-50 d-none d-sm-block">
                 </div>
             </div>
         </section>
-
-        <section class="page-section" id="stripshops">
-            <div class="container">
-                <h2 class="text-center mt-0">Strip Cigar Shops</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/CasaFuenteLogo.png" style="width:200px;"></p>
-                            <h3 class="h4 mb-2">Casa Fuente</h3>
-                            <h4 class="h5 mb-2">Caesars Palace</h3>
-                            <p class="text-muted mb-0">3500 Las Vegas Blvd. South <br/>(702) 731-5051</p>
-                            <p><a href="http://www.casafuente.com/" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/Davidoff-Cigar-Bar-Logo-Black.jpg"  style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Davidoff of Geneva Cigar Bar</h3>
-                            <p class="text-muted mb-0">3200 S Las Vegas Blvd Ste 1245 Las Vegas, NV 89109<br/>(702) 473-5001</p>
-                            <p><a href="hhttp://davidoffcigarbarlv.com" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <p><img src="images/shops/montecristo-cigar-bar.png" style="width: 200px;"></p>
-                            <h3 class="h4 mb-2">Montecristo Cigar Bar</h3>
-                            <h4 class="h5 mb-2">Caesars Palace</h3>
-                            <p class="text-muted mb-0">3570 Las Vegas Blvd S Caesars Palace Las Vegas Hotel And Casino Las Vegas, NV 89109
-                                <br/>(866) 227-5938</p>
-                            <p><a href="https://www.caesars.com/caesars-palace/things-to-do/nightlife/montecristo-cigar-bar?utm_medium=local&utm_source=yelp&utm_content=bar&utm_campaign=9FA_Yelp_Listings&dclid=CNCQhavkz_ACFQbmZAodDZAGHg" target="_blank">Web Site</a></p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio-->
-        <div id="portfolio" style="display: none;">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white" style="display: none;">
-            <div class="container text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
-            </div>
-        </section>
+        
+        
+        
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -263,8 +276,15 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright &copy; 2021 - Las VegASH</div></div>
+        <!-- Footer -->
+
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; 2021 Las VegASH</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -273,6 +293,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
         <script src="js/scripts.js"></script>
     </body>
 </html>
